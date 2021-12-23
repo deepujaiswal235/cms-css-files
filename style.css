@@ -1,4 +1,18 @@
-table, td { color: #000000; } a { color: #0000ee; text-decoration: underline; } @media (max-width: 480px) { #u_content_text_7 .v-text-align { text-align: center !important; } #u_content_text_8 .v-text-align { text-align: center !important; } }
+table,
+td {
+  color: #000000;
+} 
+a { 
+  color: #0000ee; text-decoration: underline;
+}
+@media (max-width: 480px) {
+  #u_content_text_7 .v-text-align
+  {
+    text-align: center !important;
+  }
+#u_content_text_8 .v-text-align {
+    text-align: center !important;
+  } }
 @media only screen and (min-width: 620px) {
   .u-row {
     width: 600px !important;
@@ -53,13 +67,12 @@ td {
 p {
   margin: 0;
 }
-
 .ie-container table,
 .mso-container table {
   table-layout: fixed;
 }
 
-* {
+*{
   line-height: inherit;
 }
 
@@ -74,3 +87,4 @@ a[x-apple-data-detectors='true'] {
     overflow: hidden;
     display: none !important;
   }
+}
